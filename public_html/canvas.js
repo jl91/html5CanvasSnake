@@ -49,7 +49,6 @@
             apple.strokeStyle = 'black';
             apple.fillRect(appleXPos, appleYPos, 20, 20);
             apple.fill();
-            console.log('apple x' + appleXPos + ' ', 'apple y' + appleYPos + ' ');
         } else {
             appleXPos = getRandomInt();
             appleYPos = getRandomInt();
